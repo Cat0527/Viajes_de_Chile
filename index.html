@@ -14,8 +14,8 @@
 <body>
     <!--version de boostrap v5.3-->
     <header>
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 fixed-top barraNav">
+<!--navbar navbar-expand-lg bg-body-tertiary pt-3 fixed-top barraNav-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed top bg-body-tertiary pt-0 pb-0  ">
                 <div class="container-fluid navColor">
                     <div class="ms-5">
                         <img class="logo1 mb-1" src="./assets/img/viajes.svg" alt="viajes">
@@ -70,7 +70,35 @@
             </button>
         </div>
 
-        <section class="sectiion1">
+        <section class="section1 ">
+
+            <h3 class="textPresent text-center pt-5">¿QUIENES SOMOS?</h3>
+
+                <div class="row row-cols-1 row-cols-md-4 ms-5 d-flex justify-content-center py-5 cajaP">
+                    <div class="caja1Text">
+                        <div class="d-flex justify-content-center iconoP"><i class="fa-solid fa-plane py-3 icono1"></i></div>
+                        <p class="tex1 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae quis maxime, ex voluptas aspernatur minus qui tenetur blanditiis nihil eaque similique tempora, eligendi debitis architecto autem. Optio, perferendis a.
+                        Nemo facilis in repudiandae expedita autem veniam, ipsum accusamus possimus nostrum culpa sed saepe, totam provident aspernatur. Minus neque praesentium id tenetur. Voluptate deserunt necessitatibus ex nesciunt quod nostrum est!</p>
+                    </div>
+    
+                    <div class="caja1Text">
+                        <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae illum accusantium corrupti accusamus debitis dignissimos consequatur laudantium veritatis dolorem? Porro, voluptatibus veritatis magni repudiandae aperiam voluptatem quod dignissimos. Iste.
+                        Eveniet vero aperiam repudiandae esse ex, sed rerum commodi a illum, nihil accusantium amet dolorum. Tempora, amet. Voluptatibus illo ex, ipsam quas laborum quod soluta est, esse, voluptatum ullam sed?</p>
+                        <div class="d-flex justify-content-center iconoP"><i class="fa-solid fa-mountain-city py-3 icono1"></i></div>
+                    </div>
+                    
+                    <div class="caja1Text">
+                        <div class="d-flex justify-content-center  iconoP"><i class="fa-solid fa-map-location py-3 icono1"></i></div>
+                        <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ut iste praesentium temporibus dolore, consequuntur veritatis est placeat libero excepturi neque eligendi itaque ratione! Eaque tenetur dolorem ducimus laudantium iure!
+                        Officiis iusto neque iure illum pariatur maiores quaerat itaque quo aliquam commodi. Excepturi, quod quo expedita perferendis assumenda blanditiis, quos cupiditate iure ut fuga accusantium enim minus magnam, voluptates quis?</p>
+                    </div>
+                </div>
+                
+        </section>
+
+        <section class="sectiion2">
+
+            <h3 class="textPresent text-center pt-5">DESTACADOS</h3>
 
             <div class="row row-cols-1 row-cols-md-4 mx-5 mt-0 ps-3 pb-5 align-items-center contenedorCard  ">
 
@@ -107,9 +135,51 @@
 
         </section>
 
+        <section class="section3 pb-5">
+
+            <h3 class="textPresent text-center py-5">Contacto</h3>
+
+            <div>
+                <form class="mx-5">
+                    <div class="mb-3 ">
+                        <label for="exampleInputEmail1" class="form-label">Nombre </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Asunto </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="form-floating">
+                        
+                        <div class="mensaje pb-2">
+                            <label for="exampleInputEmail1" class="form-label labelM"  >Mensaje </label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
+                            
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary boton">Enviar</button>
+
+                </form>
+            </div>
+    
+        </section>
+
     </main>
 
     <footer>
+
+        <h2>VIAJES CHILE</h2>
+
+        <i class="fa-brands fa-square-github fa-lg"></i>
+
+        <i class="fa-brands fa-linkedin fa-lg"></i>
+
+        <i class="fa-brands fa-square-twitter fa-lg"></i>
+
+        <i class="fa-brands fa-square-facebook fa-lg"></i>
 
     </footer>
 
