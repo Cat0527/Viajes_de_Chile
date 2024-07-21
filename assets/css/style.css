@@ -40,6 +40,14 @@ body{
 .contenedorCard{
     color: #ffffff;
 }
+.textD{
+    font-weight: 400;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 12px;
+    font-weight: 300;
+}
 .sectiion2{
     background-color: #000000;
     color: #ffffff;
@@ -49,6 +57,10 @@ body{
     background-color: #0FDBF2;
 }
 /*Presentación*/
+.linea2{
+    height: 1px;
+    background: linear-gradient(#383939, #373A3C);
+}
 .iconoP{
     background-color: #0FDBF2;
     color: #ffffff;
@@ -57,13 +69,25 @@ body{
     background-color: #000000;
     
 }
+.textP{
+    font-size: 16px;
+    font-weight: lighter;
+}
 /*contacto*/
 .section3{
     background-color: #000000;
     color: #ffffff;
 }
+.textPresent{
+    font-weight: 400;
+    font-size: 20px;
+}
 .labelM{
     top: 40px;
+}
+.form1{
+    font-weight: 300;
+    font-size: 12px;
 }
 .boton{
     background-color: #0FDBF2;
@@ -86,7 +110,10 @@ body{
     margin-right: 20px; 
     margin-left: 100px;
 }
-
+.textF{
+    font-weight: 400;
+    font-size: 25px;
+}
 .iconosF i {
     margin-right: 10px; 
 }
