@@ -42,7 +42,9 @@ body{
 }
 .textD{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
 }
 .card-text{
     font-size: 12px;
@@ -78,9 +80,11 @@ body{
     background-color: #000000;
     color: #ffffff;
 }
-.textPresent{
+.textD{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
 }
 .labelM{
     top: 40px;
