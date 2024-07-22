@@ -30,12 +30,12 @@ $(document).ready(function() {
 //smooth scroll
 $(document).ready(function() {
     $('a').click(function(event) {
-      event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-      const target = $(this).attr('id'); // Obtener el ID del destino (e.g., "#inicio")
+        event.preventDefault(); 
+        const target = $(this).attr('id'); 
         
         $('html, body').animate({
-        scrollTop: $(target).offset().top // Desplazarse a la posición superior del destino
-      }, 1500); // Duración de la animación (en milisegundos)
+        scrollTop: $(target).offset().top 
+        }, 1500); 
     });
 });
 
