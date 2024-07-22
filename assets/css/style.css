@@ -103,6 +103,9 @@ body{
 
 /*footer*/
 
+.contenedorF{
+    background-color: #0FDBF2;
+}
 .cajafooter{
     background-color: #0FDBF2;
     color: #ffffff;
@@ -123,7 +126,14 @@ body{
 }
 .iconosF i {
     margin-right: 10px; 
+    font-size: 30px;
+    padding-bottom: 0;
 }
 .iconosF{
     margin-right: 100px;
+}
+.iconoFF{
+    text-decoration: none;
+    color: #ffffff;
+    
 }
