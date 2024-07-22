@@ -27,16 +27,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto px-5">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" id="inicio" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" id="quienes somos" href="#">Quienes Somos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" id="destacados" href="#">Destacados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" id="contacto" href="#">Contacto</a>
             </li>
             
         </ul>
@@ -72,7 +72,7 @@
 
         <section class="section1 text-white py-4  d-sm-block">
             <div class="container d-none d-sm-block">
-                <h2 class="text-center pt-2 pb-4 textD">¿QUIÉNES SOMOS?</h2>
+                <h2 class="text-center pt-2 pb-4 textD" id="sub1">¿QUIÉNES SOMOS?</h2>
                 <div class="containerLinea">
                     <div class="linea2 my-4 "></div><!--linea de separación-->
                 </div>
@@ -109,7 +109,7 @@
 
         <section class="sectiion2">
 
-            <h3 class="textPresent text-center mx-2 pt-1">DESTACADOS</h3>
+            <h3 class="textPresent text-center mx-2 pt-1" id="sub2">DESTACADOS</h3>
 
             <div class="containerLinea">
                 <div class="linea2 my-4 "></div><!--linea de separación-->
@@ -152,7 +152,7 @@
 
         <section class="section3 pb-5">
 
-            <h3 class="textPresent text-center pt-3">CONTACTO</h3>
+            <h3 class="textPresent text-center pt-3" id="sub3">CONTACTO</h3>
 
             <div class="containerLinea">
                 <div class="linea2 my-4 "></div><!--linea de separación-->
@@ -178,8 +178,10 @@
                             
                         </div>
                     </div>
-
-                    <button type="submit" class="btn btn-primary boton">Enviar</button>
+                    
+                    <button type="submit" class="btn btn-primary boton" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Enviar">
+                        Enviar
+                    </button> <!--tooltip-->
 
                 </form>
             </div>
@@ -208,6 +210,8 @@
         </div>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <script src="https://kit.fontawesome.com/60ad7129a6.js" crossorigin="anonymous"></script>
 
